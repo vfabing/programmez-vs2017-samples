@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  monsitewebvs2017sousdocker:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
