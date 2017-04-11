@@ -6,5 +6,5 @@ services:
     build:
       context: ./MonSiteWebVS2017SousDocker
       dockerfile: Dockerfile
-    label:
+    labels:
       com.microsoft.acs.dcos.marathon.vhost: myacsagents.westeurope.cloudapp.azure.com
